@@ -29,6 +29,8 @@ public class SpawnManager : MonoBehaviour
     {
         foreach (GameObject obj in _pool)
         {
+            if (obj == null) continue;
+
             if (!obj.activeInHierarchy)
             {
                 return obj;   
@@ -51,7 +53,7 @@ public class SpawnManager : MonoBehaviour
 
             if (enemy != null)
             {
-                enemy.transform.position = new Vector3(26.92f, 0.56f, 0.641f);
+                enemy.transform.position = new Vector3(26.92f, 1.2f, 0.641f);
                 enemy.SetActive(true);
             }
             yield return new WaitForSeconds(3f);
