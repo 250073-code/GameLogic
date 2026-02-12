@@ -1,12 +1,513 @@
 fileFormatVersion: 2
 guid: 004b2d144a6d0424a997e14391054f4e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 7686573447871776456
+    second: UI_Sprites
+  - first:
+      213: -663420030710720135
+    second: SciFiGUI_1
+  - first:
+      213: -2703287087121018834
+    second: SciFiGUI_2
+  - first:
+      213: -3130812517843744540
+    second: SciFiGUI_3
+  - first:
+      213: -3665352342602718451
+    second: SciFiGUI_4
+  - first:
+      213: -6754187651520743383
+    second: SciFiGUI_5
+  - first:
+      213: -6932537012175275632
+    second: SciFiGUI_6
+  - first:
+      213: -1390759472933400450
+    second: SciFiGUI_7
+  - first:
+      213: -7629377329866630609
+    second: SciFiGUI_8
+  - first:
+      213: 2955846245041941249
+    second: SciFiGUI_9
+  - first:
+      213: -2631414123750334632
+    second: SciFiGUI_10
+  - first:
+      213: -3868925227290383221
+    second: SciFiGUI_11
+  - first:
+      213: -3185162249270851629
+    second: SciFiGUI_12
+  - first:
+      213: 7410972413023357523
+    second: SciFiGUI_13
+  - first:
+      213: -4911481300363478894
+    second: SciFiGUI_14
+  - first:
+      213: 8762254917079496663
+    second: SciFiGUI_15
+  - first:
+      213: -1434212609410611120
+    second: SciFiGUI_16
+  - first:
+      213: 4830707615545271101
+    second: SciFiGUI_17
+  - first:
+      213: -5609912145869556994
+    second: SciFiGUI_18
+  - first:
+      213: 924733107083685691
+    second: SciFiGUI_19
+  - first:
+      213: -2155589314913773776
+    second: SciFiGUI_20
+  - first:
+      213: 413520003266434913
+    second: SciFiGUI_21
+  - first:
+      213: -7924472857023751298
+    second: SciFiGUI_22
+  - first:
+      213: -2959260943854440133
+    second: SciFiGUI_23
+  - first:
+      213: -4638788756320452468
+    second: SciFiGUI_24
+  - first:
+      213: -7988558996018831493
+    second: SciFiGUI_25
+  - first:
+      213: -5981329011840542258
+    second: SciFiGUI_26
+  - first:
+      213: -4207836165155294481
+    second: SciFiGUI_27
+  - first:
+      213: 4352219389152723028
+    second: SciFiGUI_28
+  - first:
+      213: 2859416619246923397
+    second: SciFiGUI_29
+  - first:
+      213: -8779681588358537183
+    second: SciFiGUI_30
+  - first:
+      213: 4241608075234626373
+    second: SciFiGUI_31
+  - first:
+      213: 6760399428365368724
+    second: SciFiGUI_32
+  - first:
+      213: 7105570216879926067
+    second: SciFiGUI_33
+  - first:
+      213: 5205360212649765409
+    second: SciFiGUI_34
+  - first:
+      213: -850182215459418854
+    second: SciFiGUI_35
+  - first:
+      213: 5239255793997112146
+    second: SciFiGUI_36
+  - first:
+      213: -7486223920954958530
+    second: SciFiGUI_37
+  - first:
+      213: -2764076961168806044
+    second: SciFiGUI_38
+  - first:
+      213: 6928335844018220502
+    second: SciFiGUI_39
+  - first:
+      213: 6823942186419848462
+    second: SciFiGUI_40
+  - first:
+      213: -8072162458180766354
+    second: SciFiGUI_41
+  - first:
+      213: 6475551230643338152
+    second: SciFiGUI_42
+  - first:
+      213: 2750478624073034560
+    second: SciFiGUI_43
+  - first:
+      213: 716560618018069770
+    second: Cross-Hair
+  - first:
+      213: -9084802232361377122
+    second: SciFiGUI_45
+  - first:
+      213: -6355448447746763654
+    second: SciFiGUI_46
+  - first:
+      213: 1388205736000255141
+    second: SciFiGUI_47
+  - first:
+      213: -7881910945804538352
+    second: SciFiGUI_48
+  - first:
+      213: -952986599803266761
+    second: SciFiGUI_49
+  - first:
+      213: 6606889716530137505
+    second: SciFiGUI_50
+  - first:
+      213: -4657159785823627374
+    second: SciFiGUI_51
+  - first:
+      213: 606529795018346773
+    second: SciFiGUI_52
+  - first:
+      213: -868955600668166674
+    second: SciFiGUI_53
+  - first:
+      213: 7095615033680029353
+    second: SciFiGUI_54
+  - first:
+      213: 1584040293303077073
+    second: SciFiGUI_55
+  - first:
+      213: 144246747198758821
+    second: SciFiGUI_56
+  - first:
+      213: -2499501174021162555
+    second: SciFiGUI_57
+  - first:
+      213: -5335677568366269995
+    second: SciFiGUI_58
+  - first:
+      213: -203446529913894549
+    second: SciFiGUI_59
+  - first:
+      213: -2227803810821807711
+    second: SciFiGUI_60
+  - first:
+      213: -2553191731540269351
+    second: SciFiGUI_61
+  - first:
+      213: -3774142020488229186
+    second: SciFiGUI_62
+  - first:
+      213: -6552930815222509816
+    second: SciFiGUI_63
+  - first:
+      213: 1574526600424353648
+    second: SciFiGUI_64
+  - first:
+      213: -4499729691989916521
+    second: SciFiGUI_65
+  - first:
+      213: 4577528921110964432
+    second: SciFiGUI_66
+  - first:
+      213: -678010725302249039
+    second: SciFiGUI_67
+  - first:
+      213: -4049333632712140318
+    second: SciFiGUI_68
+  - first:
+      213: 1622943828858872828
+    second: SciFiGUI_69
+  - first:
+      213: -9158644757575139080
+    second: SciFiGUI_70
+  - first:
+      213: -7267569600548516607
+    second: SciFiGUI_71
+  - first:
+      213: -60966664026801516
+    second: SciFiGUI_72
+  - first:
+      213: 4800025994418733495
+    second: SciFiGUI_73
+  - first:
+      213: -1408302833304643235
+    second: SciFiGUI_74
+  - first:
+      213: 6658789533198225152
+    second: SciFiGUI_75
+  - first:
+      213: -7611695765925066391
+    second: SciFiGUI_76
+  - first:
+      213: -2364625383769239465
+    second: SciFiGUI_77
+  - first:
+      213: 523089438751852290
+    second: SciFiGUI_78
+  - first:
+      213: 263008009266860037
+    second: SciFiGUI_79
+  - first:
+      213: -2114417563481749551
+    second: SciFiGUI_80
+  - first:
+      213: 8869491736086252207
+    second: SciFiGUI_81
+  - first:
+      213: 7020344574597899073
+    second: SciFiGUI_82
+  - first:
+      213: 4257875486419326398
+    second: SciFiGUI_83
+  - first:
+      213: -8534831749118338651
+    second: SciFiGUI_84
+  - first:
+      213: -3915581321217288431
+    second: SciFiGUI_85
+  - first:
+      213: 3574878359522565567
+    second: SciFiGUI_86
+  - first:
+      213: -8838495337071124914
+    second: SciFiGUI_87
+  - first:
+      213: -8441546192893949901
+    second: SciFiGUI_88
+  - first:
+      213: -8184110929361777426
+    second: SciFiGUI_89
+  - first:
+      213: -826929241368485796
+    second: SciFiGUI_90
+  - first:
+      213: -7769445132370047315
+    second: SciFiGUI_91
+  - first:
+      213: 2854622495198456841
+    second: SciFiGUI_92
+  - first:
+      213: 5957540251860077108
+    second: SciFiGUI_93
+  - first:
+      213: 7015594539938130797
+    second: SciFiGUI_94
+  - first:
+      213: -3359135792660933402
+    second: SciFiGUI_95
+  - first:
+      213: -4692655446753349516
+    second: SciFiGUI_96
+  - first:
+      213: -8387312822112309146
+    second: SciFiGUI_97
+  - first:
+      213: 7877056782674697592
+    second: SciFiGUI_98
+  - first:
+      213: -5366224377167547472
+    second: SciFiGUI_99
+  - first:
+      213: 6691485073810495316
+    second: SciFiGUI_100
+  - first:
+      213: -2047464309722633774
+    second: SciFiGUI_101
+  - first:
+      213: 8391623217607156995
+    second: SciFiGUI_102
+  - first:
+      213: -7412116312011515060
+    second: SciFiGUI_103
+  - first:
+      213: 3811740706052995069
+    second: SciFiGUI_104
+  - first:
+      213: -4338658497842032096
+    second: SciFiGUI_105
+  - first:
+      213: -4678902023805652447
+    second: SciFiGUI_106
+  - first:
+      213: 1809476040415957637
+    second: SciFiGUI_107
+  - first:
+      213: -2831835352302983042
+    second: SciFiGUI_108
+  - first:
+      213: -7276499524186496635
+    second: SciFiGUI_109
+  - first:
+      213: 6593619236884996172
+    second: SciFiGUI_110
+  - first:
+      213: -6683669230823997887
+    second: SciFiGUI_111
+  - first:
+      213: -1673976450260482352
+    second: SciFiGUI_112
+  - first:
+      213: -1581542377958245281
+    second: SciFiGUI_113
+  - first:
+      213: -1579641188146899645
+    second: SciFiGUI_114
+  - first:
+      213: 2591141843949017174
+    second: SciFiGUI_115
+  - first:
+      213: -4129370131533276536
+    second: SciFiGUI_116
+  - first:
+      213: 7757477706579931038
+    second: SciFiGUI_117
+  - first:
+      213: 5150127414218309673
+    second: SciFiGUI_118
+  - first:
+      213: 2378217091837518706
+    second: SciFiGUI_119
+  - first:
+      213: 6053008196060037659
+    second: SciFiGUI_120
+  - first:
+      213: 4177742128321592936
+    second: SciFiGUI_121
+  - first:
+      213: -1800744526430590467
+    second: SciFiGUI_122
+  - first:
+      213: 6663042404453634518
+    second: SciFiGUI_123
+  - first:
+      213: -499017667358383310
+    second: SciFiGUI_124
+  - first:
+      213: -2762996774480796592
+    second: SciFiGUI_125
+  - first:
+      213: -8207145954139267625
+    second: SciFiGUI_126
+  - first:
+      213: 5429079379324411078
+    second: SciFiGUI_127
+  - first:
+      213: -2871035014227215865
+    second: SciFiGUI_128
+  - first:
+      213: -2797915097763863803
+    second: SciFiGUI_129
+  - first:
+      213: 4259359495624198118
+    second: SciFiGUI_130
+  - first:
+      213: -8682765506915511233
+    second: SciFiGUI_131
+  - first:
+      213: 1206782393996431105
+    second: SciFiGUI_132
+  - first:
+      213: -2624967360879697556
+    second: SciFiGUI_133
+  - first:
+      213: -1551171604038451883
+    second: SciFiGUI_134
+  - first:
+      213: 4446531421991478526
+    second: SciFiGUI_135
+  - first:
+      213: -5583740028579509626
+    second: SciFiGUI_136
+  - first:
+      213: 6983354895479872837
+    second: SciFiGUI_137
+  - first:
+      213: 3185070885498179325
+    second: SciFiGUI_138
+  - first:
+      213: -570224347604506515
+    second: SciFiGUI_139
+  - first:
+      213: -7289104394465568513
+    second: SciFiGUI_140
+  - first:
+      213: -4035440853613342510
+    second: SciFiGUI_141
+  - first:
+      213: 8295319209424823673
+    second: SciFiGUI_142
+  - first:
+      213: 7746857051157798168
+    second: SciFiGUI_143
+  - first:
+      213: -3571189414254057366
+    second: SciFiGUI_144
+  - first:
+      213: -5945471562004150921
+    second: SciFiGUI_145
+  - first:
+      213: 5557882295400499285
+    second: SciFiGUI_146
+  - first:
+      213: 3087621967851413157
+    second: SciFiGUI_147
+  - first:
+      213: -8540927150865199115
+    second: SciFiGUI_148
+  - first:
+      213: -8611718451395770434
+    second: SciFiGUI_149
+  - first:
+      213: 6420272130694973343
+    second: SciFiGUI_150
+  - first:
+      213: -6873738715701361659
+    second: SciFiGUI_151
+  - first:
+      213: -6521303272431685965
+    second: SciFiGUI_152
+  - first:
+      213: 5316397812699138817
+    second: SciFiGUI_153
+  - first:
+      213: 4474776086685078930
+    second: SciFiGUI_154
+  - first:
+      213: 2863410179983992544
+    second: SciFiGUI_155
+  - first:
+      213: -3184687480620610430
+    second: SciFiGUI_156
+  - first:
+      213: -3037416453117341909
+    second: SciFiGUI_157
+  - first:
+      213: -649225171985504472
+    second: SciFiGUI_158
+  - first:
+      213: -4340035684027572106
+    second: SciFiGUI_159
+  - first:
+      213: -5161091187747874345
+    second: SciFiGUI_160
+  - first:
+      213: 4094317814430615745
+    second: SciFiGUI_161
+  - first:
+      213: 3880264293808894227
+    second: Ammo
+  - first:
+      213: 3180109851170991868
+    second: EnemyCount
+  - first:
+      213: 5755179747120213737
+    second: Score
+  - first:
+      213: -5310133131918460302
+    second: Cross_Hair2
+  - first:
+      213: -3818009543733390446
+    second: SmthBeautiful
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -35,24 +536,24 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
+    wrapU: 1
+    wrapV: 1
     wrapW: 0
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -62,6 +563,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -75,13 +577,3544 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UI_Sprites
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1970
+        width: 433
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6c85c53d13caa60800000000000000
+      internalID: 7686573447871776456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1970
+        width: 926
+        height: 283
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979db9c3ffe0bc6f0800000000000000
+      internalID: -663420030710720135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_2
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 2081
+        width: 869
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20504687befb7ad0800000000000000
+      internalID: -2703287087121018834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_3
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 2062
+        width: 1215
+        height: 191
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8c39f4a9e1d84d0800000000000000
+      internalID: -3130812517843744540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_4
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 1706
+        width: 418
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03e48ad67d022dc0800000000000000
+      internalID: -3665352342602718451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_5
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 2143
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928b6ccbd1e4442a0800000000000000
+      internalID: -6754187651520743383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_6
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 2148
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0997b0d415eaacf90800000000000000
+      internalID: -6932537012175275632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_7
+      rect:
+        serializedVersion: 2
+        x: 3021
+        y: 2148
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e709bcfb0a703bce0800000000000000
+      internalID: -1390759472933400450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_8
+      rect:
+        serializedVersion: 2
+        x: 3046
+        y: 2145
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a91eb9db10f1690800000000000000
+      internalID: -7629377329866630609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_9
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 1619
+        width: 819
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ba566cf76450920800000000000000
+      internalID: 2955846245041941249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_10
+      rect:
+        serializedVersion: 2
+        x: 4218
+        y: 1711
+        width: 164
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f5ae8dbc65b7bd0800000000000000
+      internalID: -2631414123750334632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_11
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 1960
+        width: 183
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c2fc41101de4ac0800000000000000
+      internalID: -3868925227290383221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_12
+      rect:
+        serializedVersion: 2
+        x: 4493
+        y: 1960
+        width: 242
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d70a3c5fc70cc3d0800000000000000
+      internalID: -3185162249270851629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_13
+      rect:
+        serializedVersion: 2
+        x: 4554
+        y: 1655
+        width: 181
+        height: 509
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a0a76052019d660800000000000000
+      internalID: 7410972413023357523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_14
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1681
+        width: 217
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2987cda87c9e6dbb0800000000000000
+      internalID: -4911481300363478894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_15
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 1868
+        width: 221
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d771f33c68c99970800000000000000
+      internalID: 8762254917079496663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_16
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1879
+        width: 1033
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058c1b30b37a81ce0800000000000000
+      internalID: -1434212609410611120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_17
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 2037
+        width: 39
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33a95e6bfe1a0340800000000000000
+      internalID: 4830707615545271101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1750
+        width: 312
+        height: 280
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2bb4c30a69522b0800000000000000
+      internalID: -5609912145869556994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_19
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 1970
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f24c78cdf45dc00800000000000000
+      internalID: 924733107083685691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_20
+      rect:
+        serializedVersion: 2
+        x: 3217
+        y: 1958
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037dfea50fec512e0800000000000000
+      internalID: -2155589314913773776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_21
+      rect:
+        serializedVersion: 2
+        x: 3518
+        y: 1840
+        width: 99
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167d636804e1db500800000000000000
+      internalID: 413520003266434913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_22
+      rect:
+        serializedVersion: 2
+        x: 3654
+        y: 1861
+        width: 155
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bdfd41ced960290800000000000000
+      internalID: -7924472857023751298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_23
+      rect:
+        serializedVersion: 2
+        x: 3846
+        y: 1840
+        width: 97
+        height: 194
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b317ed3b9d79ee6d0800000000000000
+      internalID: -2959260943854440133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_24
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1942
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8081771436bf9fb0800000000000000
+      internalID: -4638788756320452468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_25
+      rect:
+        serializedVersion: 2
+        x: 3217
+        y: 1930
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7fdb071befe22190800000000000000
+      internalID: -7988558996018831493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_26
+      rect:
+        serializedVersion: 2
+        x: 4359
+        y: 1928
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9918444fc0efca0800000000000000
+      internalID: -5981329011840542258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_27
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 1926
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe270e64d43ca95c0800000000000000
+      internalID: -4207836165155294481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_28
+      rect:
+        serializedVersion: 2
+        x: 4521
+        y: 1926
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4500403b970366c30800000000000000
+      internalID: 4352219389152723028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_29
+      rect:
+        serializedVersion: 2
+        x: 4549
+        y: 1928
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eaf0fe340bea720800000000000000
+      internalID: 2859416619246923397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_30
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1838
+        width: 777
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1202ad4bc1e482680800000000000000
+      internalID: -8779681588358537183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_31
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 1914
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54bc9c842183dda30800000000000000
+      internalID: 4241608075234626373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1655
+        width: 569
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49db8734673c1dd50800000000000000
+      internalID: 6760399428365368724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_33
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1792
+        width: 384
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b29bf177e0c9260800000000000000
+      internalID: 7105570216879926067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_34
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1792
+        width: 617
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ae0f2c8872d3840800000000000000
+      internalID: 5205360212649765409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_35
+      rect:
+        serializedVersion: 2
+        x: 3712
+        y: 1817
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dcf2d87cb8334f0800000000000000
+      internalID: -850182215459418854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_36
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 1697
+        width: 183
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253ea98c26395b840800000000000000
+      internalID: 5239255793997112146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_37
+      rect:
+        serializedVersion: 2
+        x: 4493
+        y: 1697
+        width: 183
+        height: 217
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d9272f1079b1890800000000000000
+      internalID: -7486223920954958530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_38
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1708
+        width: 776
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f21b506a604a9d0800000000000000
+      internalID: -2764076961168806044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_39
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 1718
+        width: 455
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddef430eb4662060800000000000000
+      internalID: 6928335844018220502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_40
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1660
+        width: 280
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e058b55834383be50800000000000000
+      internalID: 6823942186419848462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_41
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1257
+        width: 1123
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6534ee230be9ff80800000000000000
+      internalID: -8072162458180766354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_42
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1336
+        width: 321
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abf65b0987cdd950800000000000000
+      internalID: 6475551230643338152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_43
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 1188
+        width: 959
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bad266cb9ab2620800000000000000
+      internalID: 2750478624073034560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cross-Hair
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 987
+        width: 564
+        height: 566
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d5009e51cb1f900800000000000000
+      internalID: 716560618018069770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_45
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 1431
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92ac65c08c4ce180800000000000000
+      internalID: -9084802232361377122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_46
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 1459
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a741fb33f49ecc7a0800000000000000
+      internalID: -6355448447746763654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_47
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 1458
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4747903c5e34310800000000000000
+      internalID: 1388205736000255141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_48
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 1429
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01eae0441c3dd9290800000000000000
+      internalID: -7881910945804538352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_49
+      rect:
+        serializedVersion: 2
+        x: 4198
+        y: 1017
+        width: 537
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739d4039cbf46c2f0800000000000000
+      internalID: -952986599803266761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1174
+        width: 694
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9c5ff313360bb50800000000000000
+      internalID: 6606889716530137505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_51
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1241
+        width: 406
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2979fb779d17e5fb0800000000000000
+      internalID: -4657159785823627374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_52
+      rect:
+        serializedVersion: 2
+        x: 3495
+        y: 1361
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51152c192a3da6800800000000000000
+      internalID: 606529795018346773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_53
+      rect:
+        serializedVersion: 2
+        x: 3502
+        y: 1077
+        width: 457
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee576903c79d0f3f0800000000000000
+      internalID: -868955600668166674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_54
+      rect:
+        serializedVersion: 2
+        x: 3943
+        y: 1359
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a66b696740b87260800000000000000
+      internalID: 7095615033680029353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_55
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 1322
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d84c301144abf510800000000000000
+      internalID: 1584040293303077073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_56
+      rect:
+        serializedVersion: 2
+        x: 3962
+        y: 1320
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af99cef6a7700200800000000000000
+      internalID: 144246747198758821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_57
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 1280
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9fbc6dcecff4dd0800000000000000
+      internalID: -2499501174021162555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_58
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 1278
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9228d658dd3f5b0800000000000000
+      internalID: -5335677568366269995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_59
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 1239
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6942bd75763d2df0800000000000000
+      internalID: -203446529913894549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_60
+      rect:
+        serializedVersion: 2
+        x: 3973
+        y: 1234
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a164bacc304511e0800000000000000
+      internalID: -2227803810821807711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_61
+      rect:
+        serializedVersion: 2
+        x: 3476
+        y: 1197
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6e316c5ad319cd0800000000000000
+      internalID: -2553191731540269351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_62
+      rect:
+        serializedVersion: 2
+        x: 3966
+        y: 1192
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe8ce024dd8f9bc0800000000000000
+      internalID: -3774142020488229186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_63
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 1155
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f83f874205f05a0800000000000000
+      internalID: -6552930815222509816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_64
+      rect:
+        serializedVersion: 2
+        x: 3952
+        y: 1151
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f62b3d997d9d510800000000000000
+      internalID: 1574526600424353648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_65
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 1056
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794c9ab8fafbd81c0800000000000000
+      internalID: -4499729691989916521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_66
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 1054
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d865eb0d46a68f30800000000000000
+      internalID: 4577528921110964432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 492
+        width: 357
+        height: 520
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9547c66d83796f0800000000000000
+      internalID: -678010725302249039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_68
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 623
+        width: 543
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9962de380edc7c0800000000000000
+      internalID: -4049333632712140318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_69
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 596
+        width: 323
+        height: 416
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3ab8940dad58610800000000000000
+      internalID: 1622943828858872828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_70
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 936
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f08db81e15f5e080800000000000000
+      internalID: -9158644757575139080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_71
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 610
+        width: 553
+        height: 372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10dc0ea14f7642b90800000000000000
+      internalID: -7267569600548516607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_72
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 522
+        width: 430
+        height: 460
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49aba8f5427672ff0800000000000000
+      internalID: -60966664026801516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_73
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 473
+        width: 767
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b148f5d53e1d9240800000000000000
+      internalID: 4800025994418733495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_74
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 790
+        width: 532
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5953bcd804b47ce0800000000000000
+      internalID: -1408302833304643235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_75
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 841
+        width: 21
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f8e58fcc5c86c50800000000000000
+      internalID: 6658789533198225152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_76
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 783
+        width: 164
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96901b58703dd5690800000000000000
+      internalID: -7611695765925066391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_77
+      rect:
+        serializedVersion: 2
+        x: 4198
+        y: 407
+        width: 466
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7501095edb92f2fd0800000000000000
+      internalID: -2364625383769239465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_78
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 776
+        width: 21
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2070096b213624700800000000000000
+      internalID: 523089438751852290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_79
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 792
+        width: 670
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5001f65146466a300800000000000000
+      internalID: 263008009266860037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_80
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 462
+        width: 534
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d7c2ddbd6418a2e0800000000000000
+      internalID: -2114417563481749551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_81
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 739
+        width: 670
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa0fabcdb3c61b70800000000000000
+      internalID: 8869491736086252207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_82
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 623
+        width: 274
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143afb9f1364d6160800000000000000
+      internalID: 7020344574597899073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_83
+      rect:
+        serializedVersion: 2
+        x: 4295
+        y: 332
+        width: 440
+        height: 444
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb51ed91233071b30800000000000000
+      internalID: 4257875486419326398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_84
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 684
+        width: 670
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a953106ebf2e8980800000000000000
+      internalID: -8534831749118338651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_85
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 519
+        width: 100
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11750b3b88f09a9c0800000000000000
+      internalID: -3915581321217288431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_86
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 465
+        width: 169
+        height: 274
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdd29e6de48c9130800000000000000
+      internalID: 3574878359522565567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_87
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 466
+        width: 169
+        height: 273
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4eddecb15b575580800000000000000
+      internalID: -8838495337071124914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_88
+      rect:
+        serializedVersion: 2
+        x: 3206
+        y: 519
+        width: 97
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3384189767a99da80800000000000000
+      internalID: -8441546192893949901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_89
+      rect:
+        serializedVersion: 2
+        x: 2887
+        y: 413
+        width: 274
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeccff498723c6e80800000000000000
+      internalID: -8184110929361777426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_90
+      rect:
+        serializedVersion: 2
+        x: 3203
+        y: 568
+        width: 26
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5029d97c382684f0800000000000000
+      internalID: -826929241368485796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_91
+      rect:
+        serializedVersion: 2
+        x: 3606
+        y: 424
+        width: 252
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae023ff0d26d2490800000000000000
+      internalID: -7769445132370047315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_92
+      rect:
+        serializedVersion: 2
+        x: 2942
+        y: 323
+        width: 164
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ca422f808ad9720800000000000000
+      internalID: 2854622495198456841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_93
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 399
+        width: 72
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a063f6b4f6da250800000000000000
+      internalID: 5957540251860077108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_94
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 387
+        width: 88
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bae2950166c5160800000000000000
+      internalID: 7015594539938130797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_95
+      rect:
+        serializedVersion: 2
+        x: 3892
+        y: 390
+        width: 88
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e415264bc3f161d0800000000000000
+      internalID: -3359135792660933402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 618
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470f6f2ebb650eeb0800000000000000
+      internalID: -4692655446753349516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_97
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 120
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660bae91d674a9b80800000000000000
+      internalID: -8387312822112309146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_98
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 45
+        width: 58
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d18eec86de05d60800000000000000
+      internalID: 7877056782674697592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_99
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 147
+        width: 28
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3f2e54c575785b0800000000000000
+      internalID: -5366224377167547472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_100
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 0
+        width: 631
+        height: 369
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4579d4cb83eecdc50800000000000000
+      internalID: 6691485073810495316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_101
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 147
+        width: 28
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d921b8ee02f593e0800000000000000
+      internalID: -2047464309722633774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_102
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 0
+        width: 753
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305256e0bd8057470800000000000000
+      internalID: 8391623217607156995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_103
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 0
+        width: 25
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bdcac3c7fd22990800000000000000
+      internalID: -7412116312011515060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_104
+      rect:
+        serializedVersion: 2
+        x: 4154
+        y: 0
+        width: 25
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df77f280af506e430800000000000000
+      internalID: 3811740706052995069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_105
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 0
+        width: 26
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 022556a551df9c3c0800000000000000
+      internalID: -4338658497842032096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_106
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 281
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12235343663311fb0800000000000000
+      internalID: -4678902023805652447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_107
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 0
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582d29a2fdc8c1910800000000000000
+      internalID: 1809476040415957637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_108
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 0
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78669330cc43b8d0800000000000000
+      internalID: -2831835352302983042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_109
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 0
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581a09c3c3ea40b90800000000000000
+      internalID: -7276499524186496635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_110
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 0
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4066bee2cd318b50800000000000000
+      internalID: 6593619236884996172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_111
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 0
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ef6840f36de33a0800000000000000
+      internalID: -6683669230823997887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_112
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 0
+        width: 30
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6cadf9947d4c8e0800000000000000
+      internalID: -1673976450260482352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_113
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 0
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c729c269b3d0ae0800000000000000
+      internalID: -1581542377958245281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_114
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 0
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3459deb65bcf31ae0800000000000000
+      internalID: -1579641188146899645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_115
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 0
+        width: 30
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6585b3357c595f320800000000000000
+      internalID: 2591141843949017174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_116
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 0
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ad9d36eb781b6c0800000000000000
+      internalID: -4129370131533276536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_117
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 0
+        width: 30
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f65bd8fd818ab60800000000000000
+      internalID: 7757477706579931038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_118
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 0
+        width: 30
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920cb70c89de87740800000000000000
+      internalID: 5150127414218309673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_119
+      rect:
+        serializedVersion: 2
+        x: 3095
+        y: 0
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273ecbd38df110120800000000000000
+      internalID: 2378217091837518706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_120
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 0
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12cfa452ea900450800000000000000
+      internalID: 6053008196060037659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_121
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 0
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86efac1c4525af930800000000000000
+      internalID: 4177742128321592936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_122
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 0
+        width: 32
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df920ead4687207e0800000000000000
+      internalID: -1800744526430590467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_123
+      rect:
+        serializedVersion: 2
+        x: 3233
+        y: 0
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1d2d8b3c1e77c50800000000000000
+      internalID: 6663042404453634518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_124
+      rect:
+        serializedVersion: 2
+        x: 3268
+        y: 0
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233a57053122319f0800000000000000
+      internalID: -499017667358383310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_125
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 0
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054a585921dd7a9d0800000000000000
+      internalID: -2762996774480796592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_126
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 0
+        width: 30
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd9ebfec3c5a1e80800000000000000
+      internalID: -8207145954139267625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_127
+      rect:
+        serializedVersion: 2
+        x: 3374
+        y: 0
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc97065ee6f75b40800000000000000
+      internalID: 5429079379324411078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_128
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 0
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a374fadd80828d0800000000000000
+      internalID: -2871035014227215865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_129
+      rect:
+        serializedVersion: 2
+        x: 3446
+        y: 0
+        width: 30
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5032516ea0fcb29d0800000000000000
+      internalID: -2797915097763863803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_130
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 0
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e70e5be4e84c1b30800000000000000
+      internalID: 4259359495624198118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_131
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 0
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34594456ce908780800000000000000
+      internalID: -8682765506915511233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_132
+      rect:
+        serializedVersion: 2
+        x: 3742
+        y: 0
+        width: 28
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f4a5b813a5fb010800000000000000
+      internalID: 1206782393996431105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_133
+      rect:
+        serializedVersion: 2
+        x: 3772
+        y: 0
+        width: 28
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6165cbc71e329bd0800000000000000
+      internalID: -2624967360879697556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_134
+      rect:
+        serializedVersion: 2
+        x: 3802
+        y: 0
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d7d9305a1297ae0800000000000000
+      internalID: -1551171604038451883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_135
+      rect:
+        serializedVersion: 2
+        x: 3831
+        y: 0
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef42a6205c045bd30800000000000000
+      internalID: 4446531421991478526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_136
+      rect:
+        serializedVersion: 2
+        x: 3860
+        y: 0
+        width: 28
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a836627029282b0800000000000000
+      internalID: -5583740028579509626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_137
+      rect:
+        serializedVersion: 2
+        x: 3890
+        y: 0
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d109d274cd9e060800000000000000
+      internalID: 6983354895479872837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_138
+      rect:
+        serializedVersion: 2
+        x: 3920
+        y: 0
+        width: 25
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfece8a5815a33c20800000000000000
+      internalID: 3185070885498179325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_139
+      rect:
+        serializedVersion: 2
+        x: 3948
+        y: 0
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6821ce1af72618f0800000000000000
+      internalID: -570224347604506515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_140
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 0
+        width: 25
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8142d2c26e7da90800000000000000
+      internalID: -7289104394465568513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_141
+      rect:
+        serializedVersion: 2
+        x: 4008
+        y: 0
+        width: 25
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d01740aceb3ff7c0800000000000000
+      internalID: -4035440853613342510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_142
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 0
+        width: 27
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975ad38ded4ee1370800000000000000
+      internalID: 8295319209424823673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_143
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 0
+        width: 25
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d9df3817d528b60800000000000000
+      internalID: 7746857051157798168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_144
+      rect:
+        serializedVersion: 2
+        x: 4124
+        y: 0
+        width: 27
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6860c11626907ec0800000000000000
+      internalID: -3571189414254057366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_145
+      rect:
+        serializedVersion: 2
+        x: 4184
+        y: 0
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7754e846d117d7da0800000000000000
+      internalID: -5945471562004150921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_146
+      rect:
+        serializedVersion: 2
+        x: 4211
+        y: 0
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55887c03080912d40800000000000000
+      internalID: 5557882295400499285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_147
+      rect:
+        serializedVersion: 2
+        x: 4241
+        y: 0
+        width: 27
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aed97222df69da20800000000000000
+      internalID: 3087621967851413157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_148
+      rect:
+        serializedVersion: 2
+        x: 4271
+        y: 0
+        width: 26
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffc0301208887980800000000000000
+      internalID: -8540927150865199115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_149
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 0
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7c0eef1b70d7880800000000000000
+      internalID: -8611718451395770434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_150
+      rect:
+        serializedVersion: 2
+        x: 4329
+        y: 0
+        width: 28
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f970a6f9c73691950800000000000000
+      internalID: 6420272130694973343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_151
+      rect:
+        serializedVersion: 2
+        x: 4359
+        y: 0
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50445c38e039b90a0800000000000000
+      internalID: -6873738715701361659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_152
+      rect:
+        serializedVersion: 2
+        x: 4389
+        y: 0
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3beed1e993daf75a0800000000000000
+      internalID: -6521303272431685965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_153
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 0
+        width: 28
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b8896a4a3a7c940800000000000000
+      internalID: 5316397812699138817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_154
+      rect:
+        serializedVersion: 2
+        x: 4505
+        y: 0
+        width: 28
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295d6487429991e30800000000000000
+      internalID: 4474776086685078930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_155
+      rect:
+        serializedVersion: 2
+        x: 4535
+        y: 0
+        width: 28
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6ee204360ecb720800000000000000
+      internalID: 2863410179983992544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_156
+      rect:
+        serializedVersion: 2
+        x: 4565
+        y: 0
+        width: 25
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c89fc0c97bdc3d0800000000000000
+      internalID: -3184687480620610430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_157
+      rect:
+        serializedVersion: 2
+        x: 4595
+        y: 0
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f830d24dde8d5d0800000000000000
+      internalID: -3037416453117341909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_158
+      rect:
+        serializedVersion: 2
+        x: 4624
+        y: 0
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827ef84552d7df6f0800000000000000
+      internalID: -649225171985504472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_159
+      rect:
+        serializedVersion: 2
+        x: 4653
+        y: 0
+        width: 25
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67064053a8815c3c0800000000000000
+      internalID: -4340035684027572106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_160
+      rect:
+        serializedVersion: 2
+        x: 4683
+        y: 0
+        width: 25
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d993ecc8ee1068b0800000000000000
+      internalID: -5161091187747874345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SciFiGUI_161
+      rect:
+        serializedVersion: 2
+        x: 4713
+        y: 0
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8c0be0c50f1d830800000000000000
+      internalID: 4094317814430615745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ammo
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 434
+        width: 722
+        height: 725
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3117c1311d779d530800000000000000
+      internalID: 3880264293808894227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyCount
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 1091
+        width: 1142
+        height: 528
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe64c98f05022c20800000000000000
+      internalID: 3180109851170991868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Score
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 417
+        width: 862
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee6f9ddc718edf40800000000000000
+      internalID: 5755179747120213737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cross_Hair2
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 255
+        width: 657
+        height: 699
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ab7f10d0e9e46b0800000000000000
+      internalID: -5310133131918460302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmthBeautiful
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 1619
+        width: 1484
+        height: 634
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29358b47c84b30bc0800000000000000
+      internalID: -3818009543733390446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e809057b82d03784d834697388f40ad8
     internalID: 0
     vertices: []
     indices: 

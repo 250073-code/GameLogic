@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 3497583046668441615}
   - component: {fileID: 3518291814107247131}
   - component: {fileID: 3583092202042219551}
-  - component: {fileID: 3502090027590340550}
+  - component: {fileID: 959688317645832686}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: Untagged
@@ -525,7 +525,7 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3502730398207109303}
   m_Enabled: 1
---- !u!114 &3502090027590340550
+--- !u!114 &959688317645832686
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -534,30 +534,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 3502730398207109303}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c37151e1ea88434ebff1bbdf3663f69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
+  range: 100
+  maxAmmo: 10
+  fireRate: 0.5
+  shootableMask:
     serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
-  m_Antialiasing: 1
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
+    m_Bits: 448
 --- !u!1 &3503760010013013579
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,7 +601,6 @@ MonoBehaviour:
   _runSpeed: 7
   _gravity: 1
   _jumpHeight: 15
-  _isRunning: 0
   _crouching: 0
   _smooth: 20
   _walkFrequency: 4.8

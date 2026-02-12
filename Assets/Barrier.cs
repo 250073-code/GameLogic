@@ -27,7 +27,8 @@ public class Barrier : MonoBehaviour
         _currentHealth -= amount;
         
         float healthPercent = _currentHealth / maxHealth;
-        _renderer.material.color = Color.Lerp(Color.red, _originalColor, healthPercent);
+        _renderer.material.color = Color.Lerp(Color.red, _originalColor, healthPercent); // Redder as it gets damaged
+        AudioManager.Instance?.PlayShotBarrier();
 
         if (_currentHealth <= 0)
         {

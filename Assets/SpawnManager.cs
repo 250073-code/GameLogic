@@ -1,62 +1,129 @@
+using UnityEngine;
+using UnityEngine.AI;
 using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.IO.Compression;
-using System.Runtime.ExceptionServices;
-using UnityEditor.PackageManager;
-using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject enemyPrefab;
-    public int poolSize = 10;
-    private List<GameObject> _pool = new List<GameObject>();
+    public static SpawnManager Instance;
 
-    // Start is called before the first frame update
+    [Header("Settings")]
+    public GameObject enemyPrefab;
+    public Transform startPoint;
+    public Transform finishPoint;
+    public Transform[] hidepoints;
+    
+    [Header("Wave Settings")]
+    public float spawnInterval = 3f;
+    public int totalEnemiesToSpawn = 25; // Total enemies to spawn
+    
+    // Tracking variables
+    private int _spawnedCount = 0;
+    private bool _allSpawned = false;
+    public int enemiesAlive = 0;
+    private float gameTime = 0f;
+    private bool gameActive = true;
+
+    [Header("Pooling")]
+    public int poolSize = 25;
+    private List<GameObject> _enemyPool;
+
+    void Awake()
+    {
+        Instance = this;
+        InitPool();
+    }
+
     void Start()
     {
-        StartCoroutine(EnemySpawnRoutine());
-
-        for (int i = 0; i < poolSize; i++)
-        {
-            GameObject obj = Instantiate(enemyPrefab);
-            obj.SetActive(false);
-            _pool.Add(obj);
-        }
+        // Update UI on start
+        if (UIManager.Instance != null) UIManager.Instance.UpdateEnemyCount(enemiesAlive);
+        
+        StartCoroutine(SpawnRoutine());
     }
 
-    public GameObject GetPooledObjects()
-    {
-        foreach (GameObject obj in _pool)
-        {
-            if (obj == null) continue;
-
-            if (!obj.activeInHierarchy)
-            {
-                return obj;   
-            }
-        }
-        return null;
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        if (!gameActive) return;
 
+        // Count time and send to UI
+        gameTime += Time.deltaTime;
+        if (UIManager.Instance != null)
+        {
+            UIManager.Instance.UpdateTimeDisplay(gameTime);
+        }
     }
 
-    IEnumerator EnemySpawnRoutine()
+    void InitPool()
     {
-        while (true)
+        _enemyPool = new List<GameObject>();
+        for (int i = 0; i < poolSize; i++)
         {
-            GameObject enemy = GetPooledObjects();
-
-            if (enemy != null)
-            {
-                enemy.transform.position = new Vector3(26.92f, 1.2f, 0.641f);
-                enemy.SetActive(true);
-            }
-            yield return new WaitForSeconds(3f);
+            GameObject obj = Instantiate(enemyPrefab, Vector3.zero, Quaternion.Euler(0, -90, 0));
+            obj.SetActive(false);
+            _enemyPool.Add(obj);
         }
+    }
+
+    public void SpawnEnemy()
+    {
+        if (_spawnedCount >= totalEnemiesToSpawn) return;
+        
+        GameObject enemy = GetPooledObject();
+        if (enemy != null)
+        {
+            NavMeshAgent agent = enemy.GetComponent<NavMeshAgent>();
+            if (agent != null)
+            {
+                agent.enabled = false;
+                enemy.transform.position = startPoint.position;
+                agent.enabled = true;
+                agent.Warp(startPoint.position);
+            }
+            enemy.SetActive(true);
+
+            _spawnedCount++;
+            enemiesAlive++;
+            if (UIManager.Instance != null) UIManager.Instance.UpdateEnemyCount(enemiesAlive);
+        }
+    }
+
+    public void OnEnemyKilled()
+    {
+        enemiesAlive--;
+        if (enemiesAlive < 0) enemiesAlive = 0;
+        
+        if (UIManager.Instance != null) UIManager.Instance.UpdateEnemyCount(enemiesAlive);
+
+        if (_allSpawned && enemiesAlive <= 0)
+        {
+            WinGame();
+        }
+    }
+
+    void WinGame()
+    {
+        gameActive = false; // Stop timer    
+        UIManager.Instance.ShowWin();
+    }
+
+    IEnumerator SpawnRoutine()
+    {
+        while (_spawnedCount < totalEnemiesToSpawn)
+        {
+            yield return new WaitForSeconds(spawnInterval);
+            SpawnEnemy();
+        }
+
+        _allSpawned = true;
+    }
+
+    GameObject GetPooledObject()
+    {
+        foreach (GameObject obj in _enemyPool)
+        {
+            if (!obj.activeInHierarchy) return obj;
+        }
+        return null;
     }
 }

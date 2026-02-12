@@ -1,112 +1,149 @@
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
-using System.Collections.Generic;
 
 public class Enemy : MonoBehaviour
 {
-    [Header("Points")]
-    public List<Transform> waypoints;
-    public List<Transform> hidePoints;
-
-    [Header("Speed Settings")]
-    public float walkSpeed = 1.5f;
-    public float runSpeed = 4.0f;
-
-    private NavMeshAgent _navMesh;
-    private CapsuleCollider _collider;
+    private NavMeshAgent _agent;
     private Animator _anim;
-    private int _currentWaypointIndex = 0;
-    private bool _isHiding = false;
+    private Rigidbody _rb;
+    
+    private bool _isDead = false;
+    private bool _finishedHiding = false;
+    private Transform _selectedHidePoint;
 
-    void Start()
+    public float health = 3f;
+
+    void Awake()
     {
-        _navMesh = GetComponent<NavMeshAgent>();
-        _collider = GetComponent<CapsuleCollider>();
+        _agent = GetComponent<NavMeshAgent>();
         _anim = GetComponent<Animator>();
-        _navMesh.speed = walkSpeed;
+        _rb = GetComponent<Rigidbody>();
+    }
 
-        if (waypoints.Count > 0)
-            _navMesh.SetDestination(waypoints[_currentWaypointIndex].position);
+    void OnEnable()
+    {
+        // Full reset for pool
+        _isDead = false;
+        _finishedHiding = false;
+        health = 3f;
+
+        if (_agent != null)
+        {
+            _agent.enabled = true;
+            _agent.speed = 2f; 
+            _agent.isStopped = false;
+            _agent.ResetPath();
+            // Random priority to prevent crowding
+            _agent.avoidancePriority = Random.Range(20, 80); 
+        }
+
+        if (_rb != null) _rb.isKinematic = true;
+        if (_anim != null) _anim.Rebind();
+
+        SelectRandomHidePoint();
+
+        StopAllCoroutines();
+        StartCoroutine(DelayedStart());
+    }
+
+    void SelectRandomHidePoint()
+    {
+        if (SpawnManager.Instance != null && SpawnManager.Instance.hidepoints.Length > 0)
+        {
+            _selectedHidePoint = SpawnManager.Instance.hidepoints[Random.Range(0, SpawnManager.Instance.hidepoints.Length)];
+        }
+    }
+
+    IEnumerator DelayedStart()
+    {
+        yield return new WaitForEndOfFrame();
+        GoToHidePoint();
     }
 
     void Update()
     {
-        if (_isHiding) return;
+        if (_isDead || _agent == null) return;
 
-        _anim.SetFloat("Speed", _navMesh.velocity.magnitude);
-
-        ManageSpeed();
-
-        if (!_navMesh.pathPending && _navMesh.remainingDistance < 0.5f)
+        // If going to hideout (not yet hidden)
+        if (!_finishedHiding && _selectedHidePoint != null)
         {
-            if (hidePoints.Contains(waypoints[_currentWaypointIndex]))
+            // Current logic: if distance > 5m - walk speed 2, if less - run speed 5
+            float dist = Vector3.Distance(transform.position, _selectedHidePoint.position);
+            
+            if (dist <= 10f && dist > _agent.stoppingDistance)
             {
-                StartCoroutine(HideRoutine());
+                _agent.speed = 5f; // RUN
             }
             else
             {
-                NextPoint();
+                _agent.speed = 2f; // WALK
+            }
+
+            if (!_agent.pathPending && _agent.remainingDistance <= _agent.stoppingDistance)
+            {
+                StartCoroutine(StayInHideout());
             }
         }
-    }
 
-    void ManageSpeed()
-    {
-        Transform target = waypoints[_currentWaypointIndex];
-        if (hidePoints.Contains(target) && Vector3.Distance(transform.position, target.position) < 4.0f)
+        // Pass speed to animator (2 for Walk, 5 for Run)
+        _anim.SetFloat("Speed", _agent.velocity.magnitude);
+
+        // If already finished hiding and reached finish - disable
+        if (_finishedHiding && !_agent.pathPending && _agent.remainingDistance <= _agent.stoppingDistance)
         {
-            _navMesh.speed = runSpeed;
-        }
-        else
-        {
-            _navMesh.speed = walkSpeed;
+            if (SpawnManager.Instance != null) SpawnManager.Instance.OnEnemyKilled();
+
+            gameObject.SetActive(false); // Went to Finish
         }
     }
 
-    IEnumerator HideRoutine()
+    void GoToHidePoint()
     {
-        _isHiding = true;
-        _navMesh.obstacleAvoidanceType = ObstacleAvoidanceType.NoObstacleAvoidance;
-        _navMesh.isStopped = true;
+        if (_selectedHidePoint != null)
+        {
+            _agent.SetDestination(_selectedHidePoint.position);
+        }
+    }
 
-        _anim.SetFloat("Speed", 0);
+    IEnumerator StayInHideout()
+    {
+        _agent.isStopped = true;
         _anim.SetBool("Hiding", true);
-
-        yield return new WaitForSeconds(Random.Range(2.0f, 5.0f));
+        
+        yield return new WaitForSeconds(Random.Range(2f, 5f));
 
         _anim.SetBool("Hiding", false);
-        _navMesh.isStopped = false;
-        _navMesh.obstacleAvoidanceType = ObstacleAvoidanceType.MedQualityObstacleAvoidance;
+        if (_agent != null && _agent.isOnNavMesh) _agent.isStopped = false;
+        _finishedHiding = true; // Now go to finish
         
-        NextPoint();
-        _isHiding = false;
+        // Send to finish point
+        if (SpawnManager.Instance != null && SpawnManager.Instance.finishPoint != null)
+        {
+            _agent.speed = 2f; 
+            _agent.SetDestination(SpawnManager.Instance.finishPoint.position);
+        }
     }
 
-    void NextPoint()
+    public void TakeDamage(float amount)
     {
-        if (waypoints.Count == 0) return;
-        _currentWaypointIndex = (_currentWaypointIndex + 1) % waypoints.Count;
-        _navMesh.SetDestination(waypoints[_currentWaypointIndex].position);
+        if (_isDead) return;
+        health -= amount;
+        if (health <= 0) Die();
     }
 
-    public void DeathState()
+    void Die()
     {
+        _isDead = true;
+        _agent.enabled = false;
+        if (_rb != null) _rb.isKinematic = false;
+        StopAllCoroutines();
+        if (SpawnManager.Instance != null) SpawnManager.Instance.OnEnemyKilled();
+        if (UIManager.Instance != null) UIManager.Instance.UpdateScore(50);
+        AudioManager.Instance?.PlayEnemyDeath();
         _anim.SetTrigger("Death");
-        _navMesh.isStopped = true;
-        _navMesh.enabled = false; 
-        _collider.enabled = false;
-        this.enabled = false;
-        StartCoroutine(ReturnToPoolRoutine());
-        Debug.Log("Enemy Down! +50 points.");
+        Invoke(nameof(Deactivate), 2.5f);
     }
 
-    IEnumerator ReturnToPoolRoutine()
-    {
-        yield return new WaitForSeconds(3f);
-        _collider.enabled = true;
-        _navMesh.enabled = true;
-        this.enabled = true;
-        gameObject.SetActive(false);
-    }
+    void Deactivate() => gameObject.SetActive(false);
 }
